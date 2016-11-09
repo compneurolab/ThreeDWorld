@@ -810,12 +810,12 @@ public class ProceduralGeneration : MonoBehaviour
 		directLightComp.transform.position = new Vector3(100, 100, 100);
 		directLightComp.shadows = LightShadows.Soft;
 
-		GameObject reflectionProbeObject = new GameObject("Reflection Probe");
+		/*GameObject reflectionProbeObject = new GameObject("Reflection Probe");
 		ReflectionProbe reflectionProbe = reflectionProbeObject.AddComponent<ReflectionProbe>();
 		reflectionProbe.transform.position = new Vector3(roomCenter.x, roomDimensions.y / 2.0f, roomCenter.z);
 		reflectionProbe.mode = UnityEngine.Rendering.ReflectionProbeMode.Realtime;
 		reflectionProbe.hdr = true;
-		reflectionProbe.size = new Vector3(roomDimensions.x, roomDimensions.y, roomDimensions.z);
+		reflectionProbe.size = new Vector3(roomDimensions.x, roomDimensions.y, roomDimensions.z);*/
     }
 
     public void CreateRoom(Vector3 roomDimensions, Vector3 roomCenter)
